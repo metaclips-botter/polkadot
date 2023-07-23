@@ -9,7 +9,7 @@ futures = "0.3.21"
 gum = { package = "tracing-gum", path = "../../gum" }
 lru = "0.9"
 
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-consensus-babe = { git = "https://github.com/metaclips-botter/substrate", branch = "master" }
 
 polkadot-primitives = { path = "../../../primitives" }
 polkadot-node-metrics = { path = "../../metrics" }
@@ -17,9 +17,9 @@ polkadot-node-subsystem = { path = "../../subsystem" }
 polkadot-node-subsystem-types = { path = "../../subsystem-types" }
 
 [dev-dependencies]
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-api = { git = "https://github.com/metaclips-botter/substrate", branch = "master" }
+sp-core = { git = "https://github.com/metaclips-botter/substrate", branch = "master" }
+sp-keyring = { git = "https://github.com/metaclips-botter/substrate", branch = "master" }
 async-trait = "0.1.57"
 futures = { version = "0.3.21", features = ["thread-pool"] }
 polkadot-node-subsystem-test-helpers = { path = "../../subsystem-test-helpers" }
